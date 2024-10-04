@@ -32,12 +32,14 @@ export default function Register() {
   return (
     <div className="login">
       <div className="loginWrapper">
+
         <div className="loginLeft">
-          <h3 className="loginLogo">facebook</h3>
+          <h3 className="loginLogo">🅵🅰🅲🅴🅱🅾🅾🅺</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on facebook.
+            <span className="tag">  𝓒𝓸𝓷𝓷𝓮𝓬𝓽 𝔀𝓲𝓽𝓱 𝓯𝓻𝓲𝓮𝓷𝓭𝓼 𝓪𝓷𝓭</span> <br />the world around you on 𝔣𝔞𝔠𝔢𝔟𝔬𝔬𝔨.
           </span>
         </div>
+
         <div className="loginRight">
           <form className="loginBox" onSubmit={handleClick}>
             <input
